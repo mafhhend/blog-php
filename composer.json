@@ -1,0 +1,19 @@
+{
+    "name": "saman/blog-php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "samankhdev",
+            "email": "samankh.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/promises":"^1.1",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+}
